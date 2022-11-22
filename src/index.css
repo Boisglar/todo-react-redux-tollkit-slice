@@ -1,0 +1,30 @@
+.wrapper{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+ul{
+    list-style: none;
+   padding: 0;
+    
+}
+li {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid rgb(146, 146, 146);
+}
+.todo{
+    flex: 1;
+    text-align: left;
+}
+.delete{
+    color: red;
+    cursor: pointer;
+}
+input:checked + span {
+    text-decoration: line-through;
+}
